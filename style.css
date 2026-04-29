@@ -1,0 +1,28 @@
+img {
+    width: 150px;
+}
+
+
+/*Bakgrundsbild som följer med vid förstoring/förminskning*/
+body {
+    background-image: url(Bilder/Cradle.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/*Två olika contents som reffar till huvudfil/index.html och gör så att rutorna blir transparanta i rubriktexten*/
+.content{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(117, 194, 17, 0.3);
+}
+
+.content2{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(117, 194, 17, 0.3);
+}
