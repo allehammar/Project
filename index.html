@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--Jag kommer kommentera all kod jag skrivit själv för att urskilja vad som jag skrivit och vad AI har skrivit.-->
+  <!--Jag kommenterar all kod jag skrivit själv för att urskilja vad som jag skrivit och vad AI har skrivit.-->
    
     <!--Titel-->
     <Title>My first project</Title>
 
-    <!--Sidan laddas om var 30:e sekund-->
-    <meta http-equiv="refresh" content="30">
+    <!--Sidan laddas om var 240:e sekund-->
+    <meta http-equiv="refresh" content="240">
+    <!--standard kodning-->
     <meta charset="UTF-8">
 
     <!--Egen ruta med transparans + text-->
@@ -24,7 +25,7 @@
 
 </head>
 
-    <!--Länkning till wikipedia-->
+    <!--Länkning till wikipedia med knapp-->
 <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" target=_self title="Wikipedia">
     <button style="background-color: lightgreen;">Learn more</button>
 </a>
@@ -38,20 +39,23 @@
 </head>
 <body>
 
- 
-    
+    <h1>Magic Card Search</h1>
+    <!--Här har jag endast ändrat färg-->
+    <input type="text" id="searchInput" placeholder="Search cards..." />
+    <button style="background-color: lightgreen;" onclick="searchCards()">Search</button>
 
+    <ul id="results"></ul>
 
-  <h1>Magic Card Search</h1>
-<!--Här har jag endast ändrat färg-->
-  <input type="text" id="searchInput" placeholder="Search cards..." />
-  <button style="background-color: lightgreen;" onclick="searchCards()">Search</button>
+    <script src="script.js"></script>
 
-  <ul id="results"></ul>
+    <p>If you do not know any magic cards press button below to get a random card</p>
 
-  <script src="script.js"></script>
+    <!--Gå till hemsida magic lista-->
+<a href="https://www.svenskamagic.com/kortparmen/index.php?randomcard=true">
+    <button style="background-color: forestgreen;">Random Magic Card</button>
+</a>
 
-<!--Gå till sida 2-->
+    <!--Gå till sida 2 med knapp-->
 <a href="page2.html" target=_self title="Page 2">
     <button style="background-color: forestgreen;">Page 2: Reflection and learning</button>
 </a>
