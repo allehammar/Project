@@ -1,11 +1,15 @@
+    <!--Skalet för att skapa html-->
 <!DOCTYPE html>
 <html lang="en">
+    <!--Rubrik-->
 <head>
   <!--Jag kommenterar all kod jag skrivit själv för att urskilja vad som jag skrivit och vad AI har skrivit.-->
    
     <!--Titel-->
     <Title>My first project</Title>
 
+    <!--mobilanpassad-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Sidan laddas om var 240:e sekund-->
     <meta http-equiv="refresh" content="240">
     <!--standard kodning-->
@@ -19,14 +23,14 @@
 
 <!--Egen ruta med transparans + text-->
 <div class="content2">
-    <h2>If you are unfamiliar with Magic: The Gathering, klick <b>below</b> to learn more about the game.</h2>
+    <h2>If you are unfamiliar with Magic: The Gathering, click <b>below</b> to learn more about the game.</h2>
 </div>
     
 
 </head>
 
-    <!--Länkning till wikipedia med knapp-->
-<a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" target=_self title="Wikipedia">
+    <!--Länkning till wikipedia i nytt fönster med knapp-->
+<a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" target=_blank>
     <button style="background-color: lightgreen;">Learn more</button>
 </a>
 
@@ -36,7 +40,10 @@
     <!--Reffa till style.css-->
     <link rel="stylesheet" href="style.css">
 
+    <!--slut rubrik-->
 </head>
+
+    <!--brödtext-->
 <body>
 
     <h1>Magic Card Search</h1>
@@ -48,17 +55,26 @@
 
     <script src="script.js"></script>
 
-    <p>If you do not know any magic cards press button below to get a random card</p>
+    <p>If you do not know any magic cards press the button below to get a random card</p>
 
-    <!--Gå till hemsida magic lista-->
-<a href="https://www.svenskamagic.com/kortparmen/index.php?randomcard=true">
+    <!--Öppna hemsida magic slumpmässigt kort i nytt fönster-->
+<a href="https://www.svenskamagic.com/kortparmen/index.php?randomcard=true" target=_blank>
     <button style="background-color: forestgreen;">Random Magic Card</button>
 </a>
+
+    <!--Ny rad-->
+<br>
+</br>   
+
+    <!--Ny rad-->
+<br>
+</br>   
 
     <!--Gå till sida 2 med knapp-->
 <a href="page2.html" target=_self title="Page 2">
     <button style="background-color: forestgreen;">Page 2: Reflection and learning</button>
 </a>
 
+<!--slut brödtext-->
 </body>
 </html>
