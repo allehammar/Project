@@ -26,3 +26,10 @@ body {
     padding: 20px;
     background-color: rgba(117, 194, 17, 0.3);
 }
+
+/*En content som reffar till page2 och är bakgrunden till utvärdering med mindre fade än de två andra contents*/
+.content3{
+    margin: 15px;
+    padding: 50px;
+    background-color: rgba(68, 196, 121, 0.9);
+}
