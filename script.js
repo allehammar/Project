@@ -1,6 +1,7 @@
 async function searchCards() {
   const query = document.getElementById("searchInput").value;
 
+    //ändrat ` ` som inte stämde
   const url = `https://api.scryfall.com/cards/search?q=${query}`;
 
   try {
